@@ -6,9 +6,9 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
-    "build": "refine build",
-    "start": "refine start",
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 next dev --turbo",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "refine": "refine"
   },
